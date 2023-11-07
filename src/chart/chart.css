@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #f5f5f5;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.green {
+  color: #20ba81;
+}
+
+.chart {
+  border-radius: 25px;
+  padding: 25px;
+  background-color: white;
+  width: 70vw;
+}
+
+.chart_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 21px;
+}
+
+.chart_header-today-risk {
+  background: #f9fbfe;
+  padding: 0px, 10px, 0px, 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.chart_header-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #525252;
+}
+
+.selector {
+  display: flex;
+  background: #eff2f5;
+  border-radius: 4px;
+  color: #3861fb;
+  overflow: hidden;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.selector_item {
+  padding: 6px 8px;
+}
+.selector_item__selected {
+  background: #3861fb;
+  color: white;
+}
+
+.chart_header-right {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 20px;
+}
+
+.legend {
+  border-radius: 25px;
+  padding: 20px;
+  background-color: white;
+  min-width: 184px;
+  max-width: 184px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  height: fit-content;
+}
+
+.optimalBlock {
+  width: 16px;
+  height: 13px;
+  border-radius: 5px;
+  background: #e6f5fb;
+}
+
+.legend_title {
+  color: #525252;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.legend_item {
+  padding: 1px 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.risk {
+  border-radius: 2px;
+  width: 16px;
+  height: 13px;
+}
+
+.highRisk {
+  background-color: #ea3943;
+}
+.midRisk {
+  background-color: #edc240;
+}
+.lowRisk {
+  background-color: #20ba81;
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.legend_content {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.precipitation-score {
+  color: #525252;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
